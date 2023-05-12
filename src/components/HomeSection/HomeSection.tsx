@@ -1,9 +1,11 @@
 import dynamic from 'next/dynamic';
 
+import Hero from '@/components/Hero/Hero';
+
 export default function HomeSection() {
-  const Hero = dynamic(() =>
-    import('@/components/Hero/Hero').then((mod) => mod)
-  );
+  // const Hero = dynamic(() =>
+  //   import('@/components/Hero/Hero').then((mod) => mod)
+  // );
 
   const About = dynamic(() =>
     import('@/components/About/About').then((mod) => mod)

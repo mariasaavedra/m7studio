@@ -1,12 +1,11 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-// !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'M7 STUDIO - digital studio>',
-  siteName: 'M7 STUDIO - digital studio>',
+  title: 'M7 STUDIO - digital studio',
+  siteName: 'M7 STUDIO - digital studio',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
+    "We're a digital studio that helps brands and startups build products and experiences that are useful, beautiful, and easy to use.",
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
   url: 'https://tsnext-tw.thcl.dev',
   type: 'website',

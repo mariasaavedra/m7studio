@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import * as React from 'react';
 
 import HomeSection from '@/components/HomeSection/HomeSection';
@@ -17,6 +18,9 @@ import HomeSection from '@/components/HomeSection/HomeSection';
 export default function HomePage() {
   return (
     <>
+      <Head>
+        <title>M7 STUDIO - a digital strategy and software studio, </title>
+      </Head>
       <HomeSection></HomeSection>
     </>
   );

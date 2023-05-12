@@ -19,7 +19,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>M7 STUDIO - a digital strategy and software studio, </title>
+        <title>M7 STUDIO - a digital strategy and software studio. </title>
       </Head>
       <HomeSection></HomeSection>
     </>

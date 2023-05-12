@@ -18,7 +18,7 @@ export default function Work() {
               href='https://www.figma.com/proto/3l1CWDVlEHYvyfXbULUVdn/Projects-(Community)?page-id=0%3A1&type=design&node-id=2-4&viewport=300%2C1010%2C0.19&scaling=scale-down'
               target='_blank'
             >
-              VIEW WORK
+              <p className='font-secondary'>VIEW WORK</p>
             </Link>
           </Button>
         </div>

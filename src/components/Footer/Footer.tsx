@@ -17,7 +17,7 @@ export default function Footer() {
             href='https://mariasaavedra.typeform.com/to/IkPubgrS'
             target='_blank'
           >
-            CONTACT
+            <p className='font-secondary'>CONTACT</p>
           </Link>
         </Button>
       </section>

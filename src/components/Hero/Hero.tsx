@@ -1,13 +1,9 @@
-import dynamic from 'next/dynamic';
 import Image from 'next/image';
 
 import styles from './Hero.module.css';
 
+import AnimatedText from '@/components/AnimatedText/AnimatedText';
 import Viewer from '@/components/Viewer/Viewer';
-
-const AnimatedText = dynamic(() =>
-  import('@/components/AnimatedText/AnimatedText').then((mod) => mod)
-);
 
 export default function Hero() {
   return (

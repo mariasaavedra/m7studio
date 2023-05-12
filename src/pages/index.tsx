@@ -1,19 +1,16 @@
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import * as React from 'react';
 
-import HomeSection from '@/components/HomeSection/HomeSection';
+import About from '@/components/About/About';
+import Hero from '@/components/Hero/Hero';
+import Services from '@/components/Services/Services';
 
-/**
- * SVGR Support
- * Caveat: No React Props Type.
- *
- * You can override the next-env if the type is important to you
- * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
- */
+const Work = dynamic(() => import('@/components/Work/Work').then((mod) => mod));
 
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
+const Footer = dynamic(() =>
+  import('@/components/Footer/Footer').then((mod) => mod)
+);
 
 export default function HomePage() {
   return (
@@ -21,7 +18,11 @@ export default function HomePage() {
       <Head>
         <title>M7 STUDIO - a digital strategy and software studio. </title>
       </Head>
-      <HomeSection></HomeSection>
+      <Hero />
+      <About />
+      <Services />
+      <Work />
+      <Footer />
     </>
   );
 }

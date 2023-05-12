@@ -9,12 +9,12 @@ export default function Footer() {
     <div className={styles.FooterComponent}>
       <footer className='bg-black p-8 text-xl text-white'>
         <p className='my-4 uppercase tracking-widest'>
-          email: info@m7studio.com
+          email: maria@m7studio.co
         </p>
-        <p className='my-4 uppercase tracking-widest'>phone: 8168103333</p>
-        <p className='my-4 uppercase tracking-widest underline'>
+        <p className='my-4 uppercase tracking-widest'>phone: (816) 945-4147</p>
+        {/* <p className='my-4 uppercase tracking-widest underline'>
           Schedule a call
-        </p>
+        </p> */}
         {/* CONTACT */}
         <section className='bg-black py-8'>
           <Button>

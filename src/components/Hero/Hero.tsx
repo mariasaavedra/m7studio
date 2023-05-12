@@ -18,7 +18,8 @@ export default function Hero() {
         >
           <AnimatedText position='top'></AnimatedText>
           <Viewer></Viewer>
-          <div className='absolute bottom-20 left-5  z-10  mx-auto  h-fit w-fit self-center'></div>
+          <AnimatedText position='bottom'></AnimatedText>
+
           <Image
             className='absolute bottom-20 right-5 z-10 invert md:filter-none'
             src='/images/logo.svg'
@@ -26,7 +27,6 @@ export default function Hero() {
             height={120}
             alt=''
           />
-          <AnimatedText position='bottom'></AnimatedText>
         </div>
       </div>
     </div>

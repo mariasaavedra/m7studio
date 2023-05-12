@@ -8,6 +8,12 @@
   width: 100vw;
   height: 60px;
 }
+.bottom {
+  bottom: 0;
+}
+.top {
+  top: 0;
+}
 
 .wrapper {
   animation-name: scroll;

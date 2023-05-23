@@ -14,10 +14,8 @@ export default function Hero() {
           ' relative  flex h-[65vh] w-screen overflow-hidden bg-black text-white'
         }
       >
-        <AnimatedText position='top' />
-        <Viewer></Viewer>
+        \<Viewer></Viewer>
         <AnimatedText position='bottom' />
-
         <Image
           className='absolute bottom-20 right-5 z-10 invert md:filter-none'
           src='/images/logo.svg'

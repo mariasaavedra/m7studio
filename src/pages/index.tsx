@@ -6,8 +6,6 @@ import About from '@/components/About/About';
 import Consulting from '@/components/Consulting/Consulting';
 import Hero from '@/components/Hero/Hero';
 import Services from '@/components/Services/Services';
-import Shopify from '@/components/Shopify/Shopify';
-import SquareSpace from '@/components/SquareSpace/SquareSpace';
 
 const Work = dynamic(() => import('@/components/Work/Work').then((mod) => mod));
 
@@ -24,8 +22,8 @@ export default function HomePage() {
       <Hero />
       <About />
 
-      <Shopify />
-      <SquareSpace />
+      {/* <Shopify />
+      <SquareSpace /> */}
 
       <Services />
       <Consulting />

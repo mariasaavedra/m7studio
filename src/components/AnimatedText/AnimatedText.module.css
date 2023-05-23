@@ -22,7 +22,7 @@
 
 .AnimatedTextComponent span {
   font-style: normal;
-  font-weight: 400;
+  font-weight: theme(fontWeight.medium);
   font-size: 28px;
   line-height: 48px;
   letter-spacing: 0.115em;

@@ -8,7 +8,7 @@ export default function Services() {
         Services
       </p>
       <div className='font-secondary flex flex-col text-2xl font-thin uppercase leading-loose tracking-widest text-white md:flex-row '>
-        <div className='m-4 rounded-lg p-4'>
+        <div className='m-4 rounded-lg p-4 md:w-1/2'>
           <ul>
             <li className='border-b-2'>E-commerce SOLUTIONS</li>
             <li className='border-b-2'>SHOPIFY & SQUARESPACE</li>
@@ -17,7 +17,7 @@ export default function Services() {
             <li className='border-b-2'>Custom Software</li>
           </ul>
         </div>
-        <div className='m-4 rounded-lg p-4  '>
+        <div className='m-4 rounded-lg p-4  md:w-1/2'>
           <ul>
             <li className='border-b-2'>Business Strategy</li>
             <li className='border-b-2'>Content Creation</li>

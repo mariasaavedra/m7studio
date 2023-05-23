@@ -1,6 +1,6 @@
 import styles from './AnimatedText.module.css';
 
-const word = 'DIGITAL - DESIGN - DEVELOPMENT - MARKETING - BRANDING - STRATEGY';
+const word = 'shopify - squarespace - ecommerce - branding -';
 
 interface AnimatedTextProps {
   position: 'top' | 'bottom';
@@ -17,7 +17,7 @@ export default function AnimatedText(props: AnimatedTextProps) {
 
   return (
     <div className={styles.AnimatedTextComponent + ' ' + getClasses()}>
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper + ' tracking-widest'}>
         <span>{word}</span>
         <span>{word}</span>
         <span>{word}</span>

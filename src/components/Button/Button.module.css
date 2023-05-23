@@ -9,9 +9,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: theme('height.12');
+  height: theme('height.6');
   font-family: 'Blinker';
-  padding: theme('padding.8');
+  padding: theme('padding.6');
   font-style: normal;
   display: flex;
   font-weight: 400;

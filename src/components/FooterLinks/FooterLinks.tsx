@@ -15,7 +15,10 @@ export default function FooterLinks() {
               Start a Sqaurespace <Arrow />{' '}
             </li>
             <li className='border-b-2'>
-              Referral Program <Arrow />
+              Begin an Estimate <Arrow />
+            </li>
+            <li className='border-b-2'>
+              Earn Money <Arrow />
             </li>
           </ul>
         </div>

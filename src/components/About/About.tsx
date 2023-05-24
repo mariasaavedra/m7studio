@@ -5,7 +5,7 @@ export default function About() {
         <p className='font-secondary py-8 text-xl uppercase'>About Us</p>
         <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
           <strong className='text-xl'>M7 STUDIO </strong> is a digital agency
-          headquartered in Missouri. We are led by Maria Saavedra, a seasoned
+          headquartered in Kansas City. We are led by Maria Saavedra, a seasoned
           software engineer with over 11 years of experience working on major
           projects for brands like Bridgestone Americas, Dayton Truck Tires,
           Hendrick Lexus, Title Boxing Club, and Planet Sub.

@@ -6,7 +6,7 @@ import Button from '@/components/Button/Button';
 
 export default function Work() {
   return (
-    <div className={styles.WorkComponent}>
+    <div className={styles.WorkComponent + ' relative'}>
       {/* Work */}
       <div className='mx-auto bg-black px-4 py-16 text-center'>
         <p className='font-secondary  my-8  px-4 text-xl uppercase text-white'>

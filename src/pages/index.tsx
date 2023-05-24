@@ -26,8 +26,8 @@ export default function HomePage() {
           <Services />
           <Consulting />
           <Work />
+          <Footer />
         </div>
-        <Footer />
       </section>
     </>
   );

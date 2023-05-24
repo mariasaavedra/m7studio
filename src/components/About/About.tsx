@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className='relative flex w-screen flex-col  overflow-hidden bg-black p-8 text-white md:flex-row'>
+    <div className='relative flex w-screen flex-col  overflow-hidden bg-black px-8 text-white md:flex-row'>
       <div className='relative z-10 w-full self-center md:w-1/2'>
         <p className='font-secondary py-8 text-xl uppercase'>About Us</p>
         <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
@@ -10,7 +10,7 @@ export default function About() {
           projects for brands like Bridgestone Americas, Dayton Truck Tires,
           Hendrick Lexus, Title Boxing Club, and Planet Sub.
         </p>
-        <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
+        <p className='my-2 mb-0 text-2xl font-thin leading-snug'>
           Whether you need to improve your e-commerce capabilities, build a new
           website, or enhance your brand visibility, we have the expertise to
           help you achieve your goals in the digital space.

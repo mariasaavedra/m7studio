@@ -2,9 +2,9 @@ import styles from './Services.module.css';
 
 export default function Services() {
   return (
-    <div className={styles.ServicesComponent + ' bg-black py-16'}>
+    <div className={styles.ServicesComponent + ' bg-black py-4'}>
       {/* SERVICES */}
-      <p className='font-secondary  px-8 py-8 text-xl uppercase text-white'>
+      <p className='font-secondary  px-8 py-0 text-xl uppercase text-white'>
         Services
       </p>
       <div className='font-secondary flex flex-col text-2xl font-thin uppercase leading-loose tracking-widest text-white md:flex-row '>

@@ -6,7 +6,8 @@
   gap: 0.5rem;
   padding: theme(space.2);
   width: 100vw;
-  height: 60px;
+  height: 43px;
+  border-bottom: 1px solid #333;
 }
 .bottom {
   bottom: 0;

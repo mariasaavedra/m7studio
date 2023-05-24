@@ -16,7 +16,7 @@ export default function About() {
           help you achieve your goals in the digital space.
         </p>
       </div>
-      <div className='w-full md:w-1/2'>
+      <div className='w-full '>
         <img src='/images/ibm.png' alt='' className='floating' />
       </div>
     </div>

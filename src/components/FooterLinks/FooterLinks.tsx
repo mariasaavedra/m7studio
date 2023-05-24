@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import styles from './FooterLinks.module.css';
 
 import Arrow from '@/components/Arrow/Arrow';
@@ -9,16 +11,24 @@ export default function FooterLinks() {
         <div className='w-full rounded-lg '>
           <ul>
             <li className='border-b-2'>
-              Try Shopify <Arrow />
+              <Link href='#'>
+                Try Shopify <Arrow />
+              </Link>
             </li>
             <li className='border-b-2'>
-              Start a Sqaurespace <Arrow />{' '}
+              <Link href='#'>
+                Start a Sqaurespace <Arrow />
+              </Link>
             </li>
             <li className='border-b-2'>
-              Begin an Estimate <Arrow />
+              <Link href='#'>
+                Begin an Estimate <Arrow />
+              </Link>
             </li>
             <li className='border-b-2'>
-              Earn Money <Arrow />
+              <Link href='#'>
+                Earn Money <Arrow />
+              </Link>
             </li>
           </ul>
         </div>

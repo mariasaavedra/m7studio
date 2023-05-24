@@ -20,16 +20,15 @@ export default function HomePage() {
         <title>M7 STUDIO - a digital strategy and software studio. </title>
       </Head>
       <Hero />
-      <About />
-
-      {/* <Shopify />
-      <SquareSpace /> */}
-
-      <Services />
-      <Consulting />
-
-      <Work />
-      <Footer />
+      <section className='overflow-x-hidden bg-black'>
+        <div className='container mx-auto'>
+          <About />
+          <Services />
+          <Consulting />
+          <Work />
+        </div>
+        <Footer />
+      </section>
     </>
   );
 }

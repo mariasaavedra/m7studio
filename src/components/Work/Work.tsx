@@ -9,8 +9,8 @@ export default function Work() {
     <div className={styles.WorkComponent + ' relative'}>
       {/* Work */}
       <div className='mx-auto bg-black px-4 py-16 text-center'>
-        <p className='font-secondary  my-8  px-4 text-xl uppercase text-white'>
-          RECENT WORK
+        <p className='font-primary  my-8  px-4 text-5xl uppercase text-white'>
+          CASE STUDIES
         </p>
         <div className='mx-auto flex justify-center text-center'>
           <Button>

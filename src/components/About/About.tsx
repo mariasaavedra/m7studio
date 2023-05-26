@@ -1,3 +1,7 @@
+import Link from 'next/link';
+
+import Button from '@/components/Button/Button';
+
 export default function About() {
   return (
     <div className='relative flex w-screen flex-col  overflow-hidden bg-black px-8 text-white md:flex-row'>
@@ -10,11 +14,19 @@ export default function About() {
           projects for brands like Bridgestone Americas, Dayton Truck Tires,
           Hendrick Lexus, Title Boxing Club, and Planet Sub.
         </p>
-        <p className='my-2 mb-0 text-2xl font-thin leading-snug'>
+        <p className='my-8 text-2xl font-thin leading-snug'>
           Whether you need to improve your e-commerce capabilities, build a new
           website, or enhance your brand visibility, we have the expertise to
           help you achieve your goals in the digital space.
         </p>
+        <Button>
+          <Link
+            href='https://www.figma.com/proto/3l1CWDVlEHYvyfXbULUVdn/Projects-(Community)?page-id=0%3A1&type=design&node-id=2-4&viewport=300%2C1010%2C0.19&scaling=scale-down'
+            target='_blank'
+          >
+            <p className='font-secondary font-xs'>GET STARTED</p>
+          </Link>
+        </Button>
       </div>
       <div className='w-full '>
         <img src='/images/ibm.png' alt='' className='floating' />

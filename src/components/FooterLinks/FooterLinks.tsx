@@ -17,7 +17,7 @@ export default function FooterLinks() {
             </li>
             <li className='border-b-2'>
               <Link href='#'>
-                Start a Sqaurespace <Arrow />
+                Start a Squarespace <Arrow />
               </Link>
             </li>
             <li className='border-b-2'>
@@ -28,6 +28,11 @@ export default function FooterLinks() {
             <li className='border-b-2'>
               <Link href='#'>
                 Earn Money <Arrow />
+              </Link>
+            </li>
+            <li className='border-b-2'>
+              <Link href='#'>
+                Resources <Arrow />
               </Link>
             </li>
           </ul>

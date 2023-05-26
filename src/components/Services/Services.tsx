@@ -4,9 +4,7 @@ export default function Services() {
   return (
     <div className={styles.ServicesComponent + ' bg-black py-4'}>
       {/* SERVICES */}
-      <p className='font-secondary  px-8 py-0 text-xl uppercase text-white'>
-        Services
-      </p>
+      <p className='font-p  px-8 py-0 text-xl uppercase text-white'>Services</p>
       <div className='font-secondary flex flex-col text-2xl font-thin uppercase leading-loose tracking-widest text-white md:flex-row '>
         <div className='m-4 rounded-lg p-4 md:w-1/2'>
           <ul>

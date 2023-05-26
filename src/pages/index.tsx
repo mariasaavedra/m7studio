@@ -6,6 +6,7 @@ import About from '@/components/About/About';
 import Consulting from '@/components/Consulting/Consulting';
 import Hero from '@/components/Hero/Hero';
 import Services from '@/components/Services/Services';
+import Shopify from '@/components/Shopify/Shopify';
 
 const Work = dynamic(() => import('@/components/Work/Work').then((mod) => mod));
 
@@ -21,9 +22,11 @@ export default function HomePage() {
       </Head>
       <Hero />
       <section className='overflow-x-hidden bg-black'>
-        <div className='container mx-auto'>
+        <div className=' mx-auto'>
           <About />
           <Services />
+
+          <Shopify />
           <Consulting />
           <Work />
           <Footer />

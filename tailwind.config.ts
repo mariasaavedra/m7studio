@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Inter', ...defaultTheme.fontFamily.sans],
+        primary: ['Reglo', ...defaultTheme.fontFamily.sans],
         secondary: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {

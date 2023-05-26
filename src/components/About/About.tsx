@@ -4,9 +4,11 @@ import Button from '@/components/Button/Button';
 
 export default function About() {
   return (
-    <div className='relative flex w-screen flex-col  overflow-hidden bg-black px-8 text-white md:flex-row'>
-      <div className='relative z-10 w-full self-center md:w-1/2'>
-        <p className='font-secondary py-8 text-xl uppercase'>About Us</p>
+    <div className='relative flex w-screen flex-col  overflow-hidden bg-black p-16 text-white md:flex-row'>
+      <div className='w-fullr relative z-10 md:w-1/2'>
+        <h1 className='font-secondary  my-8 max-w-4xl px-0  text-sm font-normal uppercase tracking-widest text-white'>
+          About US
+        </h1>
         <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
           <strong className='text-xl'>M7 STUDIO </strong> is a digital agency
           headquartered in Kansas City. We are led by Maria Saavedra, a seasoned

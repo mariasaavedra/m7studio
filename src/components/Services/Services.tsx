@@ -2,11 +2,13 @@ import styles from './Services.module.css';
 
 export default function Services() {
   return (
-    <div className={styles.ServicesComponent + ' bg-black py-4'}>
+    <div className={styles.ServicesComponent + ' bg-black p-16'}>
       {/* SERVICES */}
-      <p className='font-p  px-8 py-0 text-xl uppercase text-white'>Services</p>
+      <h1 className='font-secondary my-8 max-w-4xl  text-sm font-normal uppercase tracking-widest text-white'>
+        Services
+      </h1>
       <div className='font-secondary flex flex-col text-2xl font-thin uppercase leading-loose tracking-widest text-white md:flex-row '>
-        <div className='m-4 rounded-lg p-4 md:w-1/2'>
+        <div className='rounded-lg md:w-1/2'>
           <ul>
             <li className='border-b-2'>E-commerce SOLUTIONS</li>
             <li className='border-b-2'>SHOPIFY & SQUARESPACE</li>
@@ -15,7 +17,7 @@ export default function Services() {
             <li className='border-b-2'>Custom Software</li>
           </ul>
         </div>
-        <div className='m-4 rounded-lg p-4  md:w-1/2'>
+        <div className='rounded-lg  md:w-1/2'>
           <ul>
             <li className='border-b-2'>Business Strategy</li>
             <li className='border-b-2'>Content Creation</li>

@@ -14,6 +14,9 @@ export default function Work() {
         <p className='font-primary  my-8  px-4 text-5xl uppercase text-white'>
           CASE STUDIES
         </p>
+        <p className='font-secondary  mx-auto my-8  block max-w-xl px-4 text-center  text-xl font-thin  text-white'>
+          We’ve already worked and delivered results across all industries.
+        </p>
         <div className='mx-auto flex justify-center text-center'>
           <Button>
             <Link

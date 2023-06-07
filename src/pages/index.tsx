@@ -25,10 +25,10 @@ export default function HomePage() {
         <div className=' mx-auto'>
           <About />
           <Services />
-
+          <Work />
           <Shopify />
           <Consulting />
-          <Work />
+
           <Footer />
         </div>
       </section>

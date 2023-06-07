@@ -8,7 +8,8 @@ export default function Shopify() {
   return (
     <div
       className={
-        styles.ShopifyComponent + ' flex flex-col bg-black p-16 md:flex-row'
+        styles.ShopifyComponent +
+        ' flex flex-col bg-black p-8 md:flex-row md:p-16'
       }
     >
       {/* Shopify */}
@@ -20,20 +21,20 @@ export default function Shopify() {
           Are you a solo entrepreneur, a visionary boss, or the daredevil at the
           helm of a corporate behemoth, ready to kick things up a notch?
         </p> */}
-        <p className='font-primary font-bolder  max-w-4xl text-6xl uppercase text-white'>
-          Is your Shopify store falling short of delivering the experience you &
-          your customers deserve?
+        <p className='font-primary font-bolder  max-w-4xl text-3xl uppercase text-white md:text-6xl'>
+          Is your business falling short of delivering the experience you & your
+          customers deserve?
         </p>
         <p className='font-secondary my-8 flex max-w-4xl bg-black  text-2xl font-thin  text-white'>
-          In a crowded e-commerce market, a poorly maintained or generic theme
-          can spell disaster. It can result in lost sales, lower customer
-          engagement, and can tarnish your brand image.
+          In a crowded e-commerce market, a poorly maintained website and social
+          presence can spell the end. It can result in lost sales, lower
+          customer engagement, and ruin brand reputation.
         </p>
         <p className='font-secondary my-8 flex max-w-4xl bg-black  text-2xl font-thin  text-white'>
-          We specialize not just in developing captivating Shopify themes, but
-          also in offering top-notch theme maintenance and customizations that
-          truly reflect your brand. Partner with us so you can focus on what you
-          do best.
+          We specialize not just in developing captivating themes, but also in
+          offering top-notch theme maintenance and customizations that truly
+          reflect your brand. Partner with us so you can focus on what you do
+          best.
         </p>
         <div className='flex max-w-fit '>
           <Button>

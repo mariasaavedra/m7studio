@@ -9,7 +9,7 @@ export default function Consulting() {
     <div
       className={
         styles.ConsultingComponent +
-        ' flex w-full  flex-col bg-black p-16 md:flex-row'
+        ' flex w-full  flex-col bg-black p-8 md:flex-row md:p-16'
       }
     >
       {/* Consulting */}
@@ -22,7 +22,7 @@ export default function Consulting() {
         <h1 className='font-secondary  my-8 max-w-4xl   text-sm font-normal uppercase tracking-widest text-white'>
           executive Consulting
         </h1>
-        <p className='font-primary font-bolder   max-w-4xl  text-6xl uppercase text-white'>
+        <p className='font-primary font-bolder   max-w-4xl  text-3xl uppercase text-white md:text-6xl'>
           Entrepreneur, visionary boss, or daredevil CEO - does that sound like
           you?
         </p>
@@ -45,7 +45,7 @@ export default function Consulting() {
               href='https://www.figma.com/proto/3l1CWDVlEHYvyfXbULUVdn/Projects-(Community)?page-id=0%3A1&type=design&node-id=2-4&viewport=300%2C1010%2C0.19&scaling=scale-down'
               target='_blank'
             >
-              <p className='font-secondary font-xs'>BOOK NOW</p>
+              <p className='font-secondary font-xs'>RESERVE NOW</p>
             </Link>
           </Button>
         </div>

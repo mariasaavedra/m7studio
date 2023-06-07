@@ -1,7 +1,7 @@
 .ButtonComponent {
-  background: url('/images/red.jpg');
-  background-size: 150%, 50%;
-  background-position: top left;
+  background: url('/images/chroma.jpg');
+  background-size: 150%, 150%;
+  background-position: center right;
   width: theme('width.full');
   color: theme('colors.white');
   border-radius: theme('borderRadius.full');
@@ -14,7 +14,7 @@
   padding: theme('padding.6');
   font-style: normal;
   display: flex;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1rem;
   letter-spacing: 0.115em;
   max-width: fit-content;
@@ -26,8 +26,8 @@
 
 .ButtonComponent:hover {
   color: black;
-  background-position: bottom right;
-  background-size: 150%, 50%;
+  background-position: top left;
+  background-size: 150%, 150%;
   transition: all 0.5s ease-in-out;
   border: 1px solid black;
 }

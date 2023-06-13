@@ -13,7 +13,7 @@ export default function Footer() {
       <section className='bg-black py-8'>
         <Button>
           <Link
-            href='https://mariasaavedra.typeform.com/to/IkPubgrS'
+            href='https://2frgctxs18u.typeform.com/to/b9j9IZQQ'
             target='_blank'
           >
             <p className='font-secondary'>CONTACT</p>

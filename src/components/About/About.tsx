@@ -22,14 +22,14 @@ export default function About() {
           help you achieve your goals in the digital space.
         </p>
         <div className='flex flex-col items-center justify-center gap-5 text-center md:flex-row md:items-start md:justify-start'>
-          <Button>
+          {/* <Button>
             <Link
               href='https://www.figma.com/proto/3l1CWDVlEHYvyfXbULUVdn/Projects-(Community)?page-id=0%3A1&type=design&node-id=2-4&viewport=300%2C1010%2C0.19&scaling=scale-down'
               target='_blank'
             >
               <p className='font-secondary font-xs'>CASE STUDIES</p>
             </Link>
-          </Button>
+          </Button> */}
           <Button>
             <Link
               href='https://www.figma.com/proto/3l1CWDVlEHYvyfXbULUVdn/Projects-(Community)?page-id=0%3A1&type=design&node-id=2-4&viewport=300%2C1010%2C0.19&scaling=scale-down'

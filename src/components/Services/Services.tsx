@@ -1,6 +1,6 @@
 import styles from './Services.module.css';
 
-import SquiggleIcon from '@/components/SquiggleIcon/SquiggleIcon';
+import StarIcon from '@/components/StarIcon/StarIcon';
 
 export default function Services() {
   return (
@@ -13,22 +13,22 @@ export default function Services() {
         <div className='rounded-lg md:w-1/2'>
           <ul>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon /> E-commerce SOLUTIONS
+              <StarIcon /> E-commerce SOLUTIONS
             </li>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               SHOPIFY & SQUARESPACE
             </li>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               THIRD-PARTY INTEGRATIONS
             </li>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               WebSITE Development
             </li>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               Custom Software
             </li>
           </ul>
@@ -36,23 +36,23 @@ export default function Services() {
         <div className='rounded-lg  md:w-1/2'>
           <ul>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               Business Strategy
             </li>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               Content Creation
             </li>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               Branding
             </li>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               Marketing
             </li>
             <li className='border-b-2 py-2'>
-              <SquiggleIcon />
+              <StarIcon />
               CONSULTING
             </li>
           </ul>

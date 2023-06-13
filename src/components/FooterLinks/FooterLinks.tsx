@@ -11,27 +11,27 @@ export default function FooterLinks() {
         <div className='w-full rounded-lg '>
           <ul>
             <li className='border-b-2'>
-              <Link href='#'>
+              <Link target='_blank' href='https://www.shopify.com/'>
                 Try Shopify <Arrow />
               </Link>
             </li>
             <li className='border-b-2'>
-              <Link href='#'>
+              <Link target='_blank' href='https://www.squarespace.com'>
                 Start a Squarespace <Arrow />
               </Link>
             </li>
             <li className='border-b-2'>
-              <Link href='#'>
+              <Link target='_blank' href='#'>
                 Begin an Estimate <Arrow />
               </Link>
             </li>
             <li className='border-b-2'>
-              <Link href='#'>
+              <Link target='_blank' href='#'>
                 Earn Money <Arrow />
               </Link>
             </li>
             <li className='border-b-2'>
-              <Link href='#'>
+              <Link target='_blank' href='#'>
                 Resources <Arrow />
               </Link>
             </li>

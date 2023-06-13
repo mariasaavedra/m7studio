@@ -11,9 +11,9 @@ export default function Work() {
       {/* Work */}
       <div className='mx-auto bg-black px-4 py-16 text-center'>
         <SquiggleIcon />
-        <p className='font-primary  my-8  px-4 text-5xl uppercase text-white'>
+        {/* <p className='font-primary  my-8  px-4 text-5xl uppercase text-white'>
           CASE STUDIES
-        </p>
+        </p> */}
         <p className='font-secondary  mx-auto my-8  block max-w-xl px-4 text-center  text-xl font-thin  text-white'>
           We’ve already worked and delivered results across all industries.
         </p>

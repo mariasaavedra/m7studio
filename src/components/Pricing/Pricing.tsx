@@ -12,8 +12,8 @@ export default function Pricing() {
       <h1 className='font-secondary  my-8 max-w-4xl  text-sm font-normal uppercase tracking-widest text-white'>
         Packages & Pricing
       </h1>
-      <div className=' grid grid-cols-1 gap-16 lg:grid-cols-3 '>
-        <div className='border-white p-16 lg:border-r-2'>
+      <div className=' grid grid-cols-1 gap-8 lg:grid-cols-3 '>
+        <div className='border-white p-8 lg:border-r-2'>
           <h1 className='font-secondary  my-8 max-w-4xl  text-sm font-normal uppercase tracking-widest text-white'>
             MONTHLY
           </h1>
@@ -46,7 +46,7 @@ export default function Pricing() {
             </li>
           </ul>
         </div>
-        <div className='border-white p-16 lg:border-r-2'>
+        <div className='border-white p-8 lg:border-r-2'>
           <h1 className='font-secondary  my-8 max-w-4xl  text-sm font-normal uppercase tracking-widest text-white'>
             QUARTERLY
           </h1>
@@ -55,13 +55,13 @@ export default function Pricing() {
           </h3>
           <ul className='list-disc pl-2 text-sm'>
             <li className='font-secondary tw-block my-8 tracking-wide text-white'>
-              A flat fee for a 3 month service plan.
+              A flat fee for a 3 month service plan. Comes with a discount.
             </li>
             <li className='font-secondary tw-block my-8 tracking-wide text-white'>
               Queue up requests to be fulfilled one at a time.
             </li>
             <li className='font-secondary tw-block my-8 tracking-wide text-white'>
-              Perfect for medium to large projects, team augmentation, and
+              Ideal for medium to large projects, team augmentation, and
               long-term technical support.
             </li>
             <li>

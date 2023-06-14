@@ -6,29 +6,31 @@ import Button from '@/components/Button/Button';
 
 export default function Pricing() {
   return (
-    <section className={styles.PricingComponent + ' p-8'}>
+    <section
+      className={styles.PricingComponent + ' m-8 border border-white p-8'}
+    >
       <h1 className='font-secondary  my-8 max-w-4xl  text-sm font-normal uppercase tracking-widest text-white'>
         Packages & Pricing
       </h1>
-      <div className=' grid gap-16 md:grid-cols-3 '>
-        <div>
+      <div className=' grid grid-cols-1 gap-16 lg:grid-cols-3 '>
+        <div className='border-white p-16 lg:border-r-2'>
           <h1 className='font-secondary  my-8 max-w-4xl  text-sm font-normal uppercase tracking-widest text-white'>
             MONTHLY
           </h1>
           <h3 className='font-primary  my-8 max-w-4xl  text-3xl font-bold uppercase  text-white'>
             $3,500 / mo
           </h3>
-          <ul>
-            <li className='font-secondary tw-block my-8 text-white md:text-xl'>
-              one flat monthly fee, with software delivered so fast that it will
+          <ul className='list-disc pl-2 text-sm'>
+            <li className='font-secondary tw-block my-8 tracking-wide text-white'>
+              One flat monthly fee, with software delivered so fast that it will
               blow your mind.
             </li>
-            <li className='font-secondary tw-block my-8 text-white md:text-xl'>
+            <li className='font-secondary tw-block my-8 tracking-wide text-white'>
               Queue up requests to be fulfilled one at a time.
             </li>
 
-            <li className='font-secondary tw-block my-8 text-white md:text-xl'>
-              Perfect for small projects or monthly maintence.
+            <li className='font-secondary tw-block my-8 tracking-wide text-white'>
+              Perfect for small projects, monthly maintence or ad-hoc work.
             </li>
             <li>
               <Button>
@@ -44,20 +46,23 @@ export default function Pricing() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className='border-white p-16 lg:border-r-2'>
           <h1 className='font-secondary  my-8 max-w-4xl  text-sm font-normal uppercase tracking-widest text-white'>
             QUARTERLY
           </h1>
           <h3 className='font-primary  my-8 max-w-4xl  text-3xl font-bold uppercase  text-white'>
             $3,250 / mo
           </h3>
-          <ul>
-            <li className='font-secondary tw-block my-8 text-white md:text-xl'>
+          <ul className='list-disc pl-2 text-sm'>
+            <li className='font-secondary tw-block my-8 tracking-wide text-white'>
               A flat fee for a 3 month service plan.
             </li>
-            <li className='font-secondary tw-block my-8 text-white md:text-xl'>
-              Perfect for medium-large projects, brand strategies, and technical
-              support.
+            <li className='font-secondary tw-block my-8 tracking-wide text-white'>
+              Queue up requests to be fulfilled one at a time.
+            </li>
+            <li className='font-secondary tw-block my-8 tracking-wide text-white'>
+              Perfect for medium to large projects, team augmentation, and
+              long-term technical support.
             </li>
             <li>
               <Button>
@@ -73,12 +78,12 @@ export default function Pricing() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className='p-16'>
           <h1 className='font-secondary  my-8 max-w-4xl  text-sm font-normal uppercase tracking-widest text-white'>
             REQUEST A BID
           </h1>
           <ul>
-            <li className='font-secondary tw-block my-8 text-white md:text-xl'>
+            <li className='font-secondary tw-block my-8 tracking-wide text-white'>
               Some projects are complex enough to not fit on a retainer basis.
             </li>
           </ul>
@@ -93,7 +98,7 @@ export default function Pricing() {
           </Link>
         </div>
       </div>
-      <h3 className='font-secondary text-sky  my-32  text-white opacity-50 md:text-sm'>
+      <h3 className='font-secondary text-sky  my-8  text-white opacity-50 md:text-sm'>
         NOTE: DUE TO THE HIGH-QUALITY NATURE OF OUR WORK, AVAILABLE MEMBERSHIPS
         MAY BE LIMITED.
       </h3>

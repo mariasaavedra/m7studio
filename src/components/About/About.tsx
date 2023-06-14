@@ -10,16 +10,14 @@ export default function About() {
           About US
         </h1>
         <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
-          <strong className='text-xl'>M7 STUDIO </strong> is a digital agency
-          headquartered in Kansas City. We're a tight-knit group of experts. We
-          have over a decade of experience working with sucessful start-ups and
-          for brands like Bridgestone Americas, Dayton Truck Tires, Lexus, Title
-          Boxing Club, and Planet Sub.
+          <strong className='text-xl'>M7 STUDIO </strong> is a group of
+          creatives, designers, and engineers based in the United States. We've
+          worked with with brands like Bridgestone Americas, Dayton Truck Tires,
+          Lexus, Title Boxing Club, and Planet Sub.
         </p>
         <p className='my-8 text-2xl font-thin leading-snug'>
-          Whether you need to improve your e-commerce capabilities, build a new
-          website, or enhance your brand visibility, we have the expertise to
-          help you achieve your goals in the digital space.
+          We can improve your e-commerce capabilities, build a new website, or
+          enhance your brand visibility.
         </p>
         <div className='flex flex-col items-center justify-center gap-5 text-center md:flex-row md:items-start md:justify-start'>
           {/* <Button>
@@ -32,7 +30,7 @@ export default function About() {
           </Button> */}
           <Button>
             <Link
-              href='https://2frgctxs18u.typeform.com/to/b9j9IZQQ'
+              href='https://www.figma.com/proto/3l1CWDVlEHYvyfXbULUVdn/Projects-(Community)?page-id=0%3A1&type=design&node-id=2-4&viewport=300%2C1010%2C0.19&scaling=scale-down'
               target='_blank'
             >
               <p className='font-secondary font-xs'>SUBMIT PROJECT</p>

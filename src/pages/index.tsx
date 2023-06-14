@@ -21,8 +21,8 @@ export default function HomePage() {
         <title>M7 STUDIO - a digital strategy and software studio. </title>
       </Head>
       <Hero />
-      <section className='overflow-x-hidden bg-black'>
-        <div className=' mx-auto'>
+      <section className='relative overflow-x-hidden bg-black'>
+        <div className='  mx-auto'>
           <About />
           <Services />
           {/* <Work /> */}

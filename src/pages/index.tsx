@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
+import Script from 'next/script';
 import * as React from 'react';
 
 import About from '@/components/About/About';
@@ -20,6 +21,19 @@ export default function HomePage() {
       <Head>
         <title>M7 STUDIO - a digital strategy and software studio. </title>
       </Head>
+      <Script
+        src='https://www.googletagmanager.com/gtag/js?id=G-89Z9D0T85Q'
+        strategy='afterInteractive'
+      />
+      <Script id='google-analytics' strategy='afterInteractive'>
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-89Z9D0T85Q');
+    console.log('gtag init');
+  `}
+      </Script>
       <Hero />
       <section className='relative overflow-x-hidden bg-black'>
         <div className='  mx-auto'>

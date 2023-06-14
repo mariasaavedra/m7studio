@@ -28,7 +28,7 @@ export default function FooterLinks() {
                 Begin an Estimate <Arrow />
               </Link>
             </li>
-            <li className='border-b-2'>
+            {/* <li className='border-b-2'>
               <Link target='_blank' href='#'>
                 Earn Money <Arrow />
               </Link>
@@ -37,7 +37,7 @@ export default function FooterLinks() {
               <Link target='_blank' href='#'>
                 Resources <Arrow />
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

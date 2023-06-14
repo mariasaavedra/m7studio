@@ -4,6 +4,7 @@ import * as React from 'react';
 
 import About from '@/components/About/About';
 import Hero from '@/components/Hero/Hero';
+import Pricing from '@/components/Pricing/Pricing';
 import Services from '@/components/Services/Services';
 import Shopify from '@/components/Shopify/Shopify';
 
@@ -26,6 +27,7 @@ export default function HomePage() {
           <Services />
           {/* <Work /> */}
           <Shopify />
+          <Pricing />
           {/* <Consulting /> */}
 
           <Footer />

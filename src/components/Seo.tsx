@@ -70,10 +70,11 @@ export default function Seo(props: SeoProps) {
             property='og:publish_date'
             content={meta.date}
           />
+
           <meta
             name='author'
             property='article:author'
-            content='Maria Saavedra
+            content='Maria Saavedra'
           />
         </>
       )}

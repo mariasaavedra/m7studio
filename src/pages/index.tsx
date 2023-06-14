@@ -17,7 +17,6 @@ const Services = dynamic(() =>
 const Shopify = dynamic(() =>
   import('@/components/Shopify/Shopify').then((mod) => mod)
 );
-
 const Footer = dynamic(() =>
   import('@/components/Footer/Footer').then((mod) => mod)
 );

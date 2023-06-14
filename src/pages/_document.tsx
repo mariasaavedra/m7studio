@@ -23,6 +23,7 @@ export default function Document() {
     function gtag(){window.dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-89Z9D0T85Q');
+    console.log('gtag init');
   `}
       </Script>
       <body>

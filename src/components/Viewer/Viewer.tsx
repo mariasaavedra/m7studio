@@ -8,7 +8,7 @@ import Model from '@/components/Model/Model';
 export default function Viewer() {
   return (
     <Suspense fallback={<Loading />}>
-      <Canvas dpr={[1, 2]} camera={{ fov: 30 }}>
+      <Canvas className='' dpr={[1, 2]} camera={{ fov: 30 }}>
         <ambientLight />
         <spotLight
           intensity={0.5}

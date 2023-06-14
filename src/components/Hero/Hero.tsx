@@ -11,7 +11,7 @@ export default function Hero() {
       <div
         className={
           styles.bg +
-          ' relative  flex h-[65vh] w-screen overflow-hidden bg-black text-white'
+          ' relative  flex h-[80vh] w-screen overflow-hidden bg-black text-white'
         }
       >
         <Viewer></Viewer>

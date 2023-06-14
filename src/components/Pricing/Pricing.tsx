@@ -24,6 +24,10 @@ export default function Pricing() {
               blow your mind.
             </li>
             <li className='font-secondary tw-block my-8 text-white md:text-xl'>
+              Queue up requests to be fulfilled one at a time.
+            </li>
+
+            <li className='font-secondary tw-block my-8 text-white md:text-xl'>
               Perfect for small projects or monthly maintence.
             </li>
             <li>
@@ -49,11 +53,11 @@ export default function Pricing() {
           </h3>
           <ul>
             <li className='font-secondary tw-block my-8 text-white md:text-xl'>
-              Paid quarterly, with software delivered so fast that it will blow
-              your mind.
+              A flat fee for a 3 month service plan.
             </li>
             <li className='font-secondary tw-block my-8 text-white md:text-xl'>
-              Perfect for medium-large projects, campaigns, and support.
+              Perfect for medium-large projects, brand strategies, and technical
+              support.
             </li>
             <li>
               <Button>

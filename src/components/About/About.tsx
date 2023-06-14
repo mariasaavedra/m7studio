@@ -40,7 +40,13 @@ export default function About() {
         </div>
       </div>
       <div className='mx-0  mt-16 w-full md:my-8 '>
-        <Image src='/images/ibm.png' alt='' className='floating mx-0 w-full' />
+        <Image
+          src='/images/ibm.png'
+          width={600}
+          height={600}
+          alt='A floating retro IBM computer'
+          className='floating mx-0 w-full'
+        />
       </div>
     </div>
   );

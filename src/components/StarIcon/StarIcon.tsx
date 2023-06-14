@@ -1,9 +1,13 @@
+import Image from 'next/image';
+
 export default function StarIcon() {
   return (
-    <img
+    <Image
       className='mx-2 inline-block p-2'
-      width='45px'
+      width={45}
+      height={45}
       src='/images/white-star.svg'
-    ></img>
+      alt='A white star'
+    />
   );
 }

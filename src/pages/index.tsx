@@ -20,8 +20,9 @@ export default function HomePage() {
       <Head>
         <title>M7 STUDIO - a digital strategy and software studio. </title>
       </Head>
-      <Hero />
+
       <section className='relative overflow-x-hidden bg-black'>
+        <Hero />
         <div className='  mx-auto'>
           <About />
           <Services />

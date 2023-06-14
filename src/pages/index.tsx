@@ -2,13 +2,20 @@ import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import * as React from 'react';
 
-import About from '@/components/About/About';
 import Hero from '@/components/Hero/Hero';
-import Pricing from '@/components/Pricing/Pricing';
-import Services from '@/components/Services/Services';
-import Shopify from '@/components/Shopify/Shopify';
 
-const Work = dynamic(() => import('@/components/Work/Work').then((mod) => mod));
+const About = dynamic(() =>
+  import('@/components/About/About').then((mod) => mod)
+);
+const Pricing = dynamic(() =>
+  import('@/components/Pricing/Pricing').then((mod) => mod)
+);
+const Services = dynamic(() =>
+  import('@/components/Services/Services').then((mod) => mod)
+);
+const Shopify = dynamic(() =>
+  import('@/components/Shopify/Shopify').then((mod) => mod)
+);
 
 const Footer = dynamic(() =>
   import('@/components/Footer/Footer').then((mod) => mod)
@@ -22,8 +29,8 @@ export default function HomePage() {
       </Head>
 
       <section className='relative overflow-x-hidden bg-black'>
-        <Hero />
-        <div className='  mx-auto'>
+        <div className='mx-auto'>
+          <Hero />
           <About />
           <Services />
           <Shopify />

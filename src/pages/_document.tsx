@@ -4,15 +4,7 @@ import Script from 'next/script';
 export default function Document() {
   return (
     <Html lang='en'>
-      <Head>
-        {/* <link
-          rel='preload'
-          href='/fonts/inter-var-latin.woff2'
-          as='font'
-          type='font/woff2'
-          crossOrigin='anonymous'
-        /> */}
-      </Head>
+      <Head></Head>
       <Script
         src='https://www.googletagmanager.com/gtag/js?id=G-89Z9D0T85Q'
         strategy='afterInteractive'

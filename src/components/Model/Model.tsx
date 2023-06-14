@@ -19,5 +19,3 @@ export default function Model(props: any) {
     </group>
   );
 }
-
-useGLTF.preload('/green2.gltf');

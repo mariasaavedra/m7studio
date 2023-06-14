@@ -27,7 +27,7 @@ export default function Hero() {
           src='/images/logo.svg'
           width={120}
           height={120}
-          alt=''
+          alt='Logo'
         />
       </div>
     </div>

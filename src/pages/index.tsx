@@ -25,11 +25,8 @@ export default function HomePage() {
         <div className='  mx-auto'>
           <About />
           <Services />
-          {/* <Work /> */}
           <Shopify />
           <Pricing />
-          {/* <Consulting /> */}
-
           <Footer />
         </div>
       </section>

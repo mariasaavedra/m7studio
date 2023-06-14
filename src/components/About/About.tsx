@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import Button from '@/components/Button/Button';
@@ -39,7 +40,7 @@ export default function About() {
         </div>
       </div>
       <div className='mx-0  mt-16 w-full md:my-8 '>
-        <img src='/images/ibm.png' alt='' className='floating mx-0 w-full' />
+        <Image src='/images/ibm.png' alt='' className='floating mx-0 w-full' />
       </div>
     </div>
   );

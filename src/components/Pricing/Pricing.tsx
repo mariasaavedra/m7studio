@@ -35,7 +35,7 @@ export default function Pricing() {
             <li>
               <Button>
                 <Link
-                  href='https://buy.stripe.com/aEU3fOdzncuNgZGcMO'
+                  href='https://buy.stripe.com/28o03C3YNgL3bFmdQT'
                   target='_blank'
                 >
                   <p className='font-secondary  text-xxl  my-8 max-w-4xl font-bold  uppercase text-white'>
@@ -67,7 +67,7 @@ export default function Pricing() {
             <li>
               <Button>
                 <Link
-                  href='https://buy.stripe.com/dR69Ec8f31Q9cJqcMN'
+                  href='https://buy.stripe.com/8wM6s0gLzgL34cU004'
                   target='_blank'
                 >
                   <p className='font-secondary  text-xxl  my-8 max-w-4xl font-bold  uppercase text-white'>

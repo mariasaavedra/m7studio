@@ -11,14 +11,20 @@ export default function About() {
           About US
         </h1>
         <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
-          <strong className='text-xl'>M7 STUDIO </strong> is a group of
-          creatives, designers, and engineers based in the United States. We've
-          worked with with brands like Bridgestone Americas, Dayton Truck Tires,
-          Lexus, Title Boxing Club, and Planet Sub.
+          <strong className='text-xl'>M7 STUDIO </strong> is a collective of
+          imaginative individuals, including creatives, designers, and
+          engineers, operating from our headquarters in Kansas City, MO. Our
+          portfolio boasts esteemed collaborations with renowned brands such as
+          Sporting KC, Chicago Fire, LA Galaxy, Standford, Museum of Design
+          Atlanta, Toyota, Lexus, Infiniti, Firestone, Bridgestone Americas, and
+          Dayton Truck Tires.
         </p>
         <p className='my-8 text-2xl font-thin leading-snug'>
-          We can improve your e-commerce capabilities, build a new website, or
-          enhance your brand visibility.
+          Whether you're looking to enhance your brand visibility, revamp your
+          website, or optimize your e-commerce capabilities, we have the
+          expertise and resources to make it happen. Trust us to deliver
+          tailored solutions that align with your goals and help drive your
+          e-commerce success.
         </p>
         <div className='flex flex-col items-center justify-center gap-5 text-center md:flex-row md:items-start md:justify-start'>
           {/* <Button>

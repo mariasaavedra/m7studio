@@ -13,11 +13,15 @@ export default function About() {
         <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
           <strong className='text-xl'>M7 STUDIO </strong> is a collective of
           imaginative individuals, including creatives, designers, and
-          engineers, operating from our headquarters in Kansas City, MO. Our
-          portfolio boasts esteemed collaborations with renowned brands such as
-          Sporting KC, Chicago Fire, LA Galaxy, Standford, Museum of Design
-          Atlanta, Toyota, Lexus, Infiniti, Firestone, Bridgestone Americas, and
-          Dayton Truck Tires.
+          engineers, operating from our headquarters in{' '}
+          <span className='bold'>Kansas City, MO</span>. Our portfolio boasts
+          esteemed collaborations with renowned brands such as
+          <span className='bold'>
+            Sporting KC, Chicago Fire, LA Galaxy, Standford, Museum of Design
+            Atlanta, Toyota, Lexus, Infiniti, Firestone, Bridgestone Americas,
+            and Dayton Truck Tires
+          </span>
+          .
         </p>
         <p className='my-8 text-2xl font-thin leading-snug'>
           Whether you're looking to enhance your brand visibility, revamp your

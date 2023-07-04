@@ -18,7 +18,7 @@ export default function Pricing() {
             MONTHLY
           </h1>
           <h3 className='font-primary  my-8 max-w-4xl  text-3xl font-bold uppercase  text-white'>
-            $3,500 / mo
+            $1,750 / mo
           </h3>
           <ul className='list-disc pl-2 text-sm'>
             <li className='font-secondary tw-block my-8 tracking-wide text-white'>
@@ -51,7 +51,7 @@ export default function Pricing() {
             QUARTERLY
           </h1>
           <h3 className='font-primary  my-8 max-w-4xl  text-3xl font-bold uppercase  text-white'>
-            $3,250 / mo
+            $1,500 / mo
           </h3>
           <ul className='list-disc pl-2 text-sm'>
             <li className='font-secondary tw-block my-8 tracking-wide text-white'>

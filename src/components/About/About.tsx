@@ -13,8 +13,7 @@ export default function About() {
         <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
           <strong className='text-xl'>M7 STUDIO </strong> is a collective of
           imaginative individuals, including creatives, designers, and
-          engineers, operating from our headquarters in
-          <span className='font-normal italic'> Kansas City, MO</span>. Our
+          engineers, operating from our headquarters in Kansas City, MO. Our
           portfolio boasts esteemed collaborations with renowned brands such as
           <span className='font-normal italic'>
             {' '}

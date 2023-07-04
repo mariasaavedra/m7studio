@@ -23,7 +23,7 @@ export default function Hero() {
 
         <AnimatedText position='bottom' />
         <Image
-          className='absolute bottom-20 right-5 z-10 invert md:filter-none'
+          className='absolute bottom-20 right-5 z-10  invert'
           src='/images/logo.svg'
           width={120}
           height={120}

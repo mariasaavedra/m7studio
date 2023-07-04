@@ -17,6 +17,7 @@ export default function About() {
           <span className='font-normal italic'> Kansas City, MO</span>. Our
           portfolio boasts esteemed collaborations with renowned brands such as
           <span className='font-normal italic'>
+            {' '}
             Sporting KC, Chicago Fire, LA Galaxy, Standford, Museum of Design
             Atlanta, Toyota, Lexus, Infiniti, Firestone, Bridgestone Americas,
             and Dayton Truck Tires

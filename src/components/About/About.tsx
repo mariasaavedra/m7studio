@@ -10,12 +10,13 @@ export default function About() {
         <h1 className='font-secondary  my-8 max-w-4xl px-0  text-sm font-normal uppercase tracking-widest text-white'>
           About US
         </h1>
-        <p className='my-2 mb-10 text-2xl font-thin leading-snug'>
+        <p className='my-2 mb-10 text-2xl font-thin leading-relaxed'>
           <strong className='text-xl'>M7 STUDIO </strong> is a collective of
           imaginative individuals, including creatives, designers, and
-          engineers, operating from our headquarters in Kansas City, MO. Our
-          portfolio boasts esteemed collaborations with renowned brands such as
-          <span className='font-normal italic'>
+          engineers, operating from our headquarters in Kansas City, Missouri.
+          Our portfolio boasts esteemed collaborations with renowned brands such
+          as
+          <span className='font-normal'>
             {' '}
             Sporting KC, Chicago Fire, LA Galaxy, Standford, Museum of Design
             Atlanta, Toyota, Lexus, Infiniti, Firestone, Bridgestone Americas,
@@ -23,7 +24,7 @@ export default function About() {
           </span>
           .
         </p>
-        <p className='my-8 text-2xl font-thin leading-snug'>
+        <p className='my-8 text-2xl font-thin leading-relaxed'>
           Whether you're looking to enhance your brand visibility, revamp your
           website, or optimize your e-commerce capabilities, we have the
           expertise and resources to make it happen. Trust us to deliver

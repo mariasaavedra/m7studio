@@ -38,7 +38,7 @@ export default function Pricing() {
                   href='https://buy.stripe.com/28o03C3YNgL3bFmdQT'
                   target='_blank'
                 >
-                  <p className='font-secondary  text-xxl  my-8 max-w-4xl font-bold  uppercase text-white'>
+                  <p className='font-secondary  font-xs   .,  my-8 max-w-4xl font-bold  uppercase text-white'>
                     GET STARTED
                   </p>
                 </Link>
@@ -70,7 +70,7 @@ export default function Pricing() {
                   href='https://buy.stripe.com/8wM6s0gLzgL34cU004'
                   target='_blank'
                 >
-                  <p className='font-secondary  text-xxl  my-8 max-w-4xl font-bold  uppercase text-white'>
+                  <p className='font-secondary  font-xs my-8 max-w-4xl font-bold  uppercase text-white'>
                     GET STARTED
                   </p>
                 </Link>
@@ -92,7 +92,7 @@ export default function Pricing() {
             href='https://2frgctxs18u.typeform.com/to/b9j9IZQQ'
             target='_blank'
           >
-            <p className='font-secondary  text-xxl my-8 max-w-4xl max-w-fit rounded-full  border p-3 font-bold  uppercase text-white'>
+            <p className='font-secondary my-8 max-w-4xl max-w-fit rounded-full border p-3  text-center text-xs font-bold  uppercase text-white'>
               BEGIN AN ESTIMATE
             </p>
           </Link>

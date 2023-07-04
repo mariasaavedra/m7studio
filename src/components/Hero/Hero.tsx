@@ -15,8 +15,8 @@ export default function Hero() {
         }
       >
         <div className='md:-text-white absolute bottom-0 left-8   hidden h-full  items-center justify-center text-white md:bottom-0 md:left-20 md:top-0 md:flex'>
-          <h3 className='font-primary relative  z-[9999]  flex max-w-md  text-4xl md:text-7xl'>
-            Streamlined Digital & Ecommerce Solutions"
+          <h3 className='font-primary relative z-[9999]  flex  max-w-md text-4xl  uppercase md:text-7xl'>
+            Streamlined Digital & Ecommerce Solutions
           </h3>
         </div>
         <Viewer></Viewer>
